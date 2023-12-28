@@ -60,11 +60,11 @@
 
                 layer_two {
                         bindings = <
-   &trans  &trans     &trans     &trans     &trans     &trans                        &trans     &trans    &trans    &trans     &trans    &trans
-   &trans  &kp DLLR   &kp AT     &kp HASH   &kp SEMI   &kp PRCNT                     &kp PLUS   &kp LPAR  &kp RPAR  &kp APOS   &kp PIPE  &kp STAR 
-   &trans  &kp STAR   &kp GRAVE  &kp UNDER  &kp COLON  &kp EXCL                      &kp MINUS  &kp LBKT  &kp RBKT  &kp DQT    &kp LT    &kp GT
-   &trans  &kp TILDE  &kp DOT    &kp CARET  &kp AMPS   &kp QMARK  &trans      &trans &kp EQUAL  &kp LBRC  &kp RBRC  &kp COMMA  &kp FSLH  &kp BSLH
-                               &trans &trans  &trans   &trans                        &trans  &trans  &trans  &trans
+   &trans     &trans     &trans  &trans  &trans   &trans                        &trans     &trans    &trans    &trans     &trans    &trans
+   &kp AT     &kp AMPS   &kp N1  &kp N2  &kp N3   &kp UNDER                     &kp PLUS   &kp LPAR  &kp RPAR  &kp APOS   &kp PIPE  &kp STAR 
+   &kp HASH   &kp N0     &kp N4  &kp N5  &kp N6   &kp EXCL                      &kp MINUS  &kp LBKT  &kp RBKT  &kp DQT    &kp LT    &kp GT
+   &kp PRCNT  &kp TILDE  &kp N7  &kp N8  &kp N9   &kp QMARK  &trans    &trans   &kp EQUAL  &kp LBRC  &kp RBRC  &kp COMMA  &kp DOT   &kp BSLH
+                               &trans &trans  &trans   &trans                    &trans  &trans  &trans  &trans
                         >;
                 };
 
@@ -80,11 +80,11 @@
 
                 layer_four {
                         bindings = <
-   &trans  &trans    &trans   &trans    &trans  &trans                   &trans  &trans  &trans  &trans   &trans   &trans              
-   &trans  &trans    &trans   &trans    &trans  &trans                   &trans  &trans  &trans  &trans   &trans   &trans 
-   &trans  &trans    &trans   &trans    &trans  &trans                   &trans  &trans  &trans  &trans   &trans   &trans 
-   &trans  &trans    &trans   &trans    &trans  &trans &trans     &trans &trans  &trans  &trans  &trans   &trans   &ext_power EP_TOG  
-                         &trans &trans  &trans  &trans                   &trans  &trans  &trans  &trans 
+   &trans        &trans        &trans      &trans   &trans   &trans            &trans  &trans  &trans  &trans   &trans   &trans              
+   &bt BT_NXT    &out OUT_TOG  &kp GRAVE   &trans   &trans   &trans            &trans  &trans  &trans  &trans   &trans   &trans 
+   &bt BT_PRV    &trans        &kp CARET   &trans   &trans   &trans            &trans  &trans  &trans  &trans   &ext_power EP_ON   &sys_reset 
+   &bt BT_CLR    &trans        &kp DLLR    &trans   &trans   &trans &trans     &trans  &trans  &trans  &trans   &trans    &ext_power EP_OFF  &ext_power EP_TOG  
+                                &trans &trans  &trans  &trans                   &trans  &trans  &trans  &trans 
                         >;
                 };                           
         };
