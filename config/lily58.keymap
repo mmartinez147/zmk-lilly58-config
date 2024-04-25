@@ -33,6 +33,13 @@
                 bindings = <&mo>, <&kp>;
                 };
 
+                td_skq: tap_dance_0 {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&skq LSHFT>, <&kp CAPS>;
+                };
+
                 skq: sticky_key_quick_release {
                 compatible = "zmk,behavior-sticky-key";
                 #binding-cells = <1>;
@@ -42,12 +49,7 @@
                 ignore-modifiers;
                 };
 
-                td_skq: tap_dance_0 {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&skq>, <&kp CAPS>;
-                };
+                
         };
  };
 
