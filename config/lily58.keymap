@@ -27,8 +27,8 @@
                 label = "GLOBAL_QUICK_TAP";
                 #binding-cells = <2>;
                 flavor = "tap-preferred";
-                tapping-term-ms = <125>;
-                quick-tap-ms = <125>;
+                tapping-term-ms = <100>;
+                quick-tap-ms = <150>;
                 global-quick-tap;
                 bindings = <&mo>, <&kp>;
                 };
@@ -92,8 +92,6 @@
                 };                           
         };
 };
-
-
 
 
 
