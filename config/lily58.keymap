@@ -30,6 +30,7 @@
                 tapping-term-ms = <85>;
                 quick-tap-ms = <100>;
                 global-quick-tap;
+                retro-tap;
                 bindings = <&mo>, <&kp>;
                 };
 
@@ -92,7 +93,6 @@
                 };                           
         };
 };
-
 
 
 
